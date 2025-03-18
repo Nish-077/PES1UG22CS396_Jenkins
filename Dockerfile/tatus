@@ -1,0 +1,26 @@
+[0;1;32m●[0m systemd-networkd.service - Network Configuration
+     Loaded: loaded (]8;;file://nishant-VMware-Virtual-Platform/usr/lib/systemd/system/systemd-networkd.service/usr/lib/systemd/system/systemd-networkd.service]8;;; enabled-runtime; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Tue 2025-03-18 15:35:22 IST; 42s ago
+ Invocation: 081ebf74954b4af193e4919603f0a49d
+TriggeredBy: [0;1;32m●[0m systemd-networkd.socket
+       Docs: ]8;;man:systemd-networkd.service(8)man:systemd-networkd.service(8)]8;;
+             ]8;;man:org.freedesktop.network1(5)man:org.freedesktop.network1(5)]8;;
+   Main PID: 28752 (systemd-network)
+     Status: "[0;1;36mProcessing requests...[0m"
+      Tasks: 1 (limit: 8766)
+   FD Store: 0[0;38;5;245m (limit: 512)[0m
+     Memory: 3.3M (peak: 3.6M)
+        CPU: 139ms
+     CGroup: /system.slice/systemd-networkd.service
+             └─[0;38;5;245m28752 /usr/lib/systemd/systemd-networkd[0m
+
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: lo: Gained carrier
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: ens33: Link UP
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: ens33: Gained carrier
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: br-cd5357fea696: Link UP
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: br-19db15b7faca: Link UP
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: docker0: Link UP
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: br-6743e17ad674: Link UP
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: Enumeration completed
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd[1]: Started systemd-networkd.service - Network Configuration.
+Mar 18 15:35:22 nishant-VMware-Virtual-Platform systemd-networkd[28752]: ens33: Configuring with /run/systemd/network/10-netplan-ens33.network.
