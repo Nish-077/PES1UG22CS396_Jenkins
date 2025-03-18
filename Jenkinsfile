@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
-                sh 'g++ -o output main.cpp'
+                sh 'g++ -o output new_cpp.cpp'
             }
         }
         stage('Test') {
